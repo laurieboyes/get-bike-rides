@@ -1,7 +1,7 @@
 {
-  "name": "get-bike-rides",
+  "name": "get-google-fit-bike-rides",
   "version": "1.0.0",
-  "description": "Fetch a list of bikerides from Google Fit",
+  "description": "Browser JS library to fetch a list of bikerides from Google Fit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,10 +1,9 @@
 var webpack = require('webpack');
-var libraryName = 'get-bike-rides';
 
 module.exports = {
     entry: {
-        'get-bike-rides': './index.js',
-        'get-bike-rides.min': './index.js',
+        'get-google-fit-bike-rides': './index.js',
+        'get-google-fit-bike-rides.min': './index.js',
     },
     output: {
         path: __dirname + '/dist',

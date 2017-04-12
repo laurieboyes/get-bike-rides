@@ -1,3 +1,4 @@
-import getBikeRides from './src/get-bike-rides';
+import getGoogleFitBikeRides from './src/get-google-fit-bike-rides';
 
-export default getBikeRides;
+window.getGoogleFitBikeRides = getGoogleFitBikeRides
+export default getGoogleFitBikeRides;

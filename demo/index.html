@@ -2,7 +2,9 @@
 
 <head>
     <script src="https://apis.google.com/js/api.js"></script>
+    <script src="../dist/get-google-fit-bike-rides.js"></script>
     <script>
+
         // prep the Google API stuff
         var client_id = '447838384773-9n5pf96vipeuedm8ls2und2uu0ekteqt.apps.googleusercontent.com';
         var apiKey = 'SqgxaJRRDVB4s3x9zEbkaR4B';
@@ -16,6 +18,28 @@
             gapi.auth2.init({client_id: client_id, scope: scope})
         });
 
+        // set up the button
+        function init() {
+            document.querySelector('.js-get-google-fit-bike-rides').addEventListener('click', function(){
+                
+                var from = new Date(document.querySelector('.js-from-date').value);
+                var to = new Date(document.querySelector('.js-to-date').value);
+
+                gapi.auth2.getAuthInstance().signIn()
+                    .then(function() {
+                        window.getGoogleFitBikeRides(from, to)
+                            .then(function(bikeRides) {
+                                console.log('winnar', bikeRides);
+                            })
+                    })
+            });
+        }
+        if (document.readyState != 'loading') {
+            init();
+        } else {
+            document.addEventListener('DOMContentLoaded', init);
+        }
+
     </script>
 </head>
 
@@ -23,10 +47,10 @@
     <h1>Get Bike Rides demo</h1>
 
     <label for='toDate'>From</label>
-    <input id='fromDate' type='date' className='js-from-date' value='2017-02-01' />
+    <input id='fromDate' type='date' class='js-from-date' value='2017-02-01' />
     <label for='toDate'>To</label>
-    <input id='toDate' type='date' className='js-to-date' value='2017-02-28' />
-    <button>Sign into Google and get some bikerides</button>
+    <input id='toDate' type='date' class='js-to-date' value='2017-02-28' />
+    <button class='js-get-google-fit-bike-rides'>Sign into Google and get some bikerides</button>
 
     <ul class='js-bike-ride-list'>
         <li>lol</li>
