@@ -3,16 +3,18 @@
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="../dist/get-google-fit-bike-rides.js"></script>
     <script>
-        // prep the Google API stuff
-        const googleApiClientId = '447838384773-9n5pf96vipeuedm8ls2und2uu0ekteqt.apps.googleusercontent.com';
-        const googleApiKey = 'SqgxaJRRDVB4s3x9zEbkaR4B';
-
-        // getBikeRides provides the scope it requires for the Google API
-        const scope = window.getGoogleFitBikeRides.googleApiScope;
 
         gapi.load('client:auth2', function () {
-            gapi.client.setApiKey(googleApiKey);
-            gapi.auth2.init({ client_id: googleApiClientId, scope: scope })
+            gapi.auth2.init({
+
+                // Generated as part of Google OAuth client setup
+                // Note that there's no need to pass the client secret when using the client from a web browser
+                client_id: '447838384773-9n5pf96vipeuedm8ls2und2uu0ekteqt.apps.googleusercontent.com',
+
+                // getBikeRides provides the scope it requires for the Google API
+                scope: window.getGoogleFitBikeRides.googleApiScope
+
+            })
         });
 
         function init() {
