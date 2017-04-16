@@ -4,32 +4,49 @@
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="../dist/get-google-fit-bike-rides.js"></script>
     <script>
-
         // prep the Google API stuff
-        var client_id = '447838384773-9n5pf96vipeuedm8ls2und2uu0ekteqt.apps.googleusercontent.com';
-        var apiKey = 'SqgxaJRRDVB4s3x9zEbkaR4B';
-        const scope = [
-            'https://www.googleapis.com/auth/fitness.activity.read',
-            'https://www.googleapis.com/auth/fitness.location.read'
-        ].join(' ');
+        const googleApiClientId = '447838384773-9n5pf96vipeuedm8ls2und2uu0ekteqt.apps.googleusercontent.com';
+        const googleApiKey = 'SqgxaJRRDVB4s3x9zEbkaR4B';
 
-        gapi.load('client:auth2', function() {
-            gapi.client.setApiKey(apiKey);
-            gapi.auth2.init({client_id: client_id, scope: scope})
+        // getBikeRides provides the scope it requires for the Google API
+        const scope = window.getGoogleFitBikeRides.googleApiScope;
+
+        gapi.load('client:auth2', function () {
+            gapi.client.setApiKey(googleApiKey);
+            gapi.auth2.init({ client_id: googleApiClientId, scope: scope })
         });
 
-        // set up the button
+        // set up the button. Note that the Google API must be signed into as a direct result of a user interaction,
+        // such as a button press
         function init() {
-            document.querySelector('.js-get-google-fit-bike-rides').addEventListener('click', function(){
-                
-                var from = new Date(document.querySelector('.js-from-date').value);
-                var to = new Date(document.querySelector('.js-to-date').value);
+
+            const statusEl = document.querySelector('.js-status');
+
+            document.querySelector('.js-get-google-fit-bike-rides').addEventListener('click', function () {
+
+                const from = new Date(document.querySelector('.js-from-date').value);
+                const to = new Date(document.querySelector('.js-to-date').value);
+
+                statusEl.textContent = 'Signing into Google';
 
                 gapi.auth2.getAuthInstance().signIn()
-                    .then(function() {
+                    .then(function () {
+                        statusEl.textContent = 'Getting bike rides...';
                         window.getGoogleFitBikeRides(from, to)
-                            .then(function(bikeRides) {
-                                console.log('winnar', bikeRides);
+                            .then(function (bikeRides) {
+                                if (bikeRides.length) {
+                                    statusEl.textContent = '';
+                                    const bikeRideList = document.querySelector('.js-bike-ride-list');
+                                    bikeRides.forEach(function (bikeRide) {
+                                        const itemEl = document.createElement('li');
+                                        const rideEl = document.createElement('pre')
+                                        rideEl.textContent = JSON.stringify(bikeRide, null, 3);
+                                        itemEl.appendChild(rideEl);
+                                        bikeRideList.appendChild(itemEl);
+                                    })
+                                } else {
+                                    statusEl.textContent = 'No bike rides found between these dates';
+                                }
                             })
                     })
             });
@@ -39,21 +56,18 @@
         } else {
             document.addEventListener('DOMContentLoaded', init);
         }
-
     </script>
 </head>
 
 <body>
     <h1>Get Bike Rides demo</h1>
-
     <label for='toDate'>From</label>
     <input id='fromDate' type='date' class='js-from-date' value='2017-02-01' />
     <label for='toDate'>To</label>
     <input id='toDate' type='date' class='js-to-date' value='2017-02-28' />
     <button class='js-get-google-fit-bike-rides'>Sign into Google and get some bikerides</button>
-
+    <p class='js-status'></p>
     <ul class='js-bike-ride-list'>
-        <li>lol</li>
     </ul>
 </body>
 
