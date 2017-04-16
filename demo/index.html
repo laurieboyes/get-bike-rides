@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="../dist/get-google-fit-bike-rides.js"></script>
@@ -16,12 +15,12 @@
             gapi.auth2.init({ client_id: googleApiClientId, scope: scope })
         });
 
-        // set up the button. Note that the Google API must be signed into as a direct result of a user interaction,
-        // such as a button press
         function init() {
-
             const statusEl = document.querySelector('.js-status');
+            const bikeRidesEl = document.querySelector('.js-bike-rides');
 
+            // Note that the Google API should be signed into as a direct result of a user interaction,
+            // in order to avoid the login pop-up being blocked
             document.querySelector('.js-get-google-fit-bike-rides').addEventListener('click', function () {
 
                 const from = new Date(document.querySelector('.js-from-date').value);
@@ -30,20 +29,13 @@
                 statusEl.textContent = 'Signing into Google';
 
                 gapi.auth2.getAuthInstance().signIn()
-                    .then(function () {
+                    .then(() => {
                         statusEl.textContent = 'Getting bike rides...';
                         window.getGoogleFitBikeRides(from, to)
                             .then(function (bikeRides) {
                                 if (bikeRides.length) {
                                     statusEl.textContent = '';
-                                    const bikeRideList = document.querySelector('.js-bike-ride-list');
-                                    bikeRides.forEach(function (bikeRide) {
-                                        const itemEl = document.createElement('li');
-                                        const rideEl = document.createElement('pre')
-                                        rideEl.textContent = JSON.stringify(bikeRide, null, 3);
-                                        itemEl.appendChild(rideEl);
-                                        bikeRideList.appendChild(itemEl);
-                                    })
+                                    bikeRidesEl.textContent = JSON.stringify(bikeRides, null, 3);
                                 } else {
                                     statusEl.textContent = 'No bike rides found between these dates';
                                 }
@@ -51,6 +43,7 @@
                     })
             });
         }
+
         if (document.readyState != 'loading') {
             init();
         } else {
@@ -67,8 +60,6 @@
     <input id='toDate' type='date' class='js-to-date' value='2017-02-28' />
     <button class='js-get-google-fit-bike-rides'>Sign into Google and get some bikerides</button>
     <p class='js-status'></p>
-    <ul class='js-bike-ride-list'>
-    </ul>
+    <pre class='js-bike-rides'></pre>
 </body>
-
 </html>
