@@ -24,7 +24,7 @@ describe('getGoogleFitBikeRides', () => {
 		}
 
 		getGoogleFitBikeRides = proxyquire('../src/get-google-fit-bike-rides', {
-			'./gapi/queries': { queryFitnessDataSource: queryFitnessDataSourceStub }
+			'./gapi/query-google-fit-data-source': { default: queryFitnessDataSourceStub }
 		}).default;
 
 	});

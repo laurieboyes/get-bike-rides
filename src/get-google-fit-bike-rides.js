@@ -1,6 +1,6 @@
 import fuzzyFindIndex from './util/number-array-fuzzy-find-index';
 import dataSources from './gapi/data-sources';
-import { queryFitnessDataSource } from './gapi/queries'
+import queryFitnessDataSource from './gapi/query-google-fit-data-source'
 
 function getClosestLatLng(locationPoints, nanos) {
 	const sortedPoints = locationPoints.sort();

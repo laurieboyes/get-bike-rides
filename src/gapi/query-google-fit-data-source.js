@@ -14,7 +14,7 @@ function lessThanADayApart (dateA, dateB) {
 	return dateA.getTime() - dateB.getTime() < 86400000;
 }
 
-export function queryFitnessDataSource (dataSourceId, fromDate, toDate) {
+export default function queryFitnessDataSource (dataSourceId, fromDate, toDate) {
 	return doTheActualQuery(dataSourceId, fromDate, toDate)
 		.then(points => {
 
