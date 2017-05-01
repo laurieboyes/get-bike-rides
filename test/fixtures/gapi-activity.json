@@ -1,0 +1,1601 @@
+[
+	{
+		"startTimeNanos": "1455733506587000000",
+		"endTimeNanos": "1455785398689000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456396259842"
+	},
+	{
+		"startTimeNanos": "1455785398689000000",
+		"endTimeNanos": "1455786449774000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 0,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455787784201"
+	},
+	{
+		"startTimeNanos": "1455786449774000000",
+		"endTimeNanos": "1455786706911206256",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456396260091"
+	},
+	{
+		"startTimeNanos": "1455786706911206256",
+		"endTimeNanos": "1455789571660000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456399858858"
+	},
+	{
+		"startTimeNanos": "1455789571660000000",
+		"endTimeNanos": "1455798991123602923",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456406891974"
+	},
+	{
+		"startTimeNanos": "1455798991123602923",
+		"endTimeNanos": "1455799224533000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456410493149"
+	},
+	{
+		"startTimeNanos": "1455799224533000000",
+		"endTimeNanos": "1455801914083000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456410493149"
+	},
+	{
+		"startTimeNanos": "1455801934384000000",
+		"endTimeNanos": "1455802504429000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455805785841"
+	},
+	{
+		"startTimeNanos": "1455802504429000000",
+		"endTimeNanos": "1455802530160098691",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455805785841"
+	},
+	{
+		"startTimeNanos": "1455802530160098691",
+		"endTimeNanos": "1455802538122000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455805785841"
+	},
+	{
+		"startTimeNanos": "1455802538122000000",
+		"endTimeNanos": "1455802662330000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455805785841"
+	},
+	{
+		"startTimeNanos": "1455802662330000000",
+		"endTimeNanos": "1455802670244952104",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455805785841"
+	},
+	{
+		"startTimeNanos": "1455802670244952104",
+		"endTimeNanos": "1455802906103000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455805785841"
+	},
+	{
+		"startTimeNanos": "1455802906103000000",
+		"endTimeNanos": "1455803906023000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 0,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456414093448"
+	},
+	{
+		"startTimeNanos": "1455803906023000000",
+		"endTimeNanos": "1455807706617915979",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456414093448"
+	},
+	{
+		"startTimeNanos": "1455807706617915979",
+		"endTimeNanos": "1455807916592000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456417693513"
+	},
+	{
+		"startTimeNanos": "1455807916592000000",
+		"endTimeNanos": "1455810303166523617",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456417693513"
+	},
+	{
+		"startTimeNanos": "1455810303166523617",
+		"endTimeNanos": "1455811803303000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456421293883"
+	},
+	{
+		"startTimeNanos": "1455811803303000000",
+		"endTimeNanos": "1455813304147538872",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456421293883"
+	},
+	{
+		"startTimeNanos": "1455813304147538872",
+		"endTimeNanos": "1455813401169000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456428495298"
+	},
+	{
+		"startTimeNanos": "1455813401169000000",
+		"endTimeNanos": "1455817533775492747",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456428495298"
+	},
+	{
+		"startTimeNanos": "1455817533775492747",
+		"endTimeNanos": "1455817918366458106",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456428495298"
+	},
+	{
+		"startTimeNanos": "1455817918366458106",
+		"endTimeNanos": "1455817932296000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455823794628"
+	},
+	{
+		"startTimeNanos": "1455817932296000000",
+		"endTimeNanos": "1455818540668000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455823794628"
+	},
+	{
+		"startTimeNanos": "1455818540668000000",
+		"endTimeNanos": "1455819710803000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 0,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455823794628"
+	},
+	{
+		"startTimeNanos": "1455819710803000000",
+		"endTimeNanos": "1455819898421000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455823794628"
+	},
+	{
+		"startTimeNanos": "1455819898421000000",
+		"endTimeNanos": "1455820138596000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455823794628"
+	},
+	{
+		"startTimeNanos": "1455820138596000000",
+		"endTimeNanos": "1455820833340000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 0,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455823794628"
+	},
+	{
+		"startTimeNanos": "1455820833340000000",
+		"endTimeNanos": "1455820880574000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455823794628"
+	},
+	{
+		"startTimeNanos": "1455821005352000000",
+		"endTimeNanos": "1455824059063000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456432090497"
+	},
+	{
+		"startTimeNanos": "1455824059063000000",
+		"endTimeNanos": "1455825682355000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456435691288"
+	},
+	{
+		"startTimeNanos": "1455825682355000000",
+		"endTimeNanos": "1455832852283000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456439290450"
+	},
+	{
+		"startTimeNanos": "1455832852283000000",
+		"endTimeNanos": "1455833402300000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456468089537"
+	},
+	{
+		"startTimeNanos": "1455833402300000000",
+		"endTimeNanos": "1455866001272000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456471689153"
+	},
+	{
+		"startTimeNanos": "1455866001272000000",
+		"endTimeNanos": "1455866786549000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456475151325"
+	},
+	{
+		"startTimeNanos": "1455866786549000000",
+		"endTimeNanos": "1455869121407000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456478745019"
+	},
+	{
+		"startTimeNanos": "1455869121407000000",
+		"endTimeNanos": "1455871794789000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456478745019"
+	},
+	{
+		"startTimeNanos": "1455871952058000000",
+		"endTimeNanos": "1455872119278000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455877608640"
+	},
+	{
+		"startTimeNanos": "1455872119278000000",
+		"endTimeNanos": "1455873637294000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 1,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455877608640"
+	},
+	{
+		"startTimeNanos": "1455873637294000000",
+		"endTimeNanos": "1455873942150000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455877608640"
+	},
+	{
+		"startTimeNanos": "1455873942150000000",
+		"endTimeNanos": "1455874064123000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 8,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455877608640"
+	},
+	{
+		"startTimeNanos": "1455874064123000000",
+		"endTimeNanos": "1455874141779000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455877608640"
+	},
+	{
+		"startTimeNanos": "1455874141779000000",
+		"endTimeNanos": "1455874261958000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455877608640"
+	},
+	{
+		"startTimeNanos": "1455874261958000000",
+		"endTimeNanos": "1455874264520485025",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455877608640"
+	},
+	{
+		"startTimeNanos": "1455874447543000000",
+		"endTimeNanos": "1455874799891000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456482344756"
+	},
+	{
+		"startTimeNanos": "1455874799891000000",
+		"endTimeNanos": "1455877218335000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456500345719"
+	},
+	{
+		"startTimeNanos": "1455877218335000000",
+		"endTimeNanos": "1455879192338000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456500345719"
+	},
+	{
+		"startTimeNanos": "1455879192338000000",
+		"endTimeNanos": "1455888286369011900",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456500345719"
+	},
+	{
+		"startTimeNanos": "1455888286369011900",
+		"endTimeNanos": "1455888295304000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455892014377"
+	},
+	{
+		"startTimeNanos": "1455888295304000000",
+		"endTimeNanos": "1455888556453000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455892014377"
+	},
+	{
+		"startTimeNanos": "1455889203513000000",
+		"endTimeNanos": "1455889696532873023",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455892014377"
+	},
+	{
+		"startTimeNanos": "1455889696532873023",
+		"endTimeNanos": "1455889702660000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455892014377"
+	},
+	{
+		"startTimeNanos": "1455889702660000000",
+		"endTimeNanos": "1455890038678000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455892014377"
+	},
+	{
+		"startTimeNanos": "1455890038678000000",
+		"endTimeNanos": "1455890046224662569",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455892014377"
+	},
+	{
+		"startTimeNanos": "1455890046224662569",
+		"endTimeNanos": "1455892862113000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456521813836"
+	},
+	{
+		"startTimeNanos": "1455892862113000000",
+		"endTimeNanos": "1455896753869000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456521813836"
+	},
+	{
+		"startTimeNanos": "1455896753869000000",
+		"endTimeNanos": "1455904992871000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456521813836"
+	},
+	{
+		"startTimeNanos": "1455904992871000000",
+		"endTimeNanos": "1455905755002000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455909833983"
+	},
+	{
+		"startTimeNanos": "1455906086544000000",
+		"endTimeNanos": "1455907319567000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 0,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1455909833983"
+	},
+	{
+		"startTimeNanos": "1455907319567000000",
+		"endTimeNanos": "1455916488931000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456563972154"
+	},
+	{
+		"startTimeNanos": "1455916488931000000",
+		"endTimeNanos": "1455927520352000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456563972154"
+	},
+	{
+		"startTimeNanos": "1455927570282000000",
+		"endTimeNanos": "1455960601656000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455960601656000000",
+		"endTimeNanos": "1455961150354000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 0,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455961150354000000",
+		"endTimeNanos": "1455962244367000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455962468904000000",
+		"endTimeNanos": "1455962715851000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455962715851000000",
+		"endTimeNanos": "1455963880407000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 0,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455963880407000000",
+		"endTimeNanos": "1455965862347000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456610680242"
+	},
+	{
+		"startTimeNanos": "1455965862347000000",
+		"endTimeNanos": "1455968672021875115",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456610680242"
+	},
+	{
+		"startTimeNanos": "1455968672021875115",
+		"endTimeNanos": "1455968679924000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455968679924000000",
+		"endTimeNanos": "1455969384821000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455969384821000000",
+		"endTimeNanos": "1455969821385844069",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455969821385844069",
+		"endTimeNanos": "1455969910753000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455969910753000000",
+		"endTimeNanos": "1455970016426000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455970016426000000",
+		"endTimeNanos": "1455971373671000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 0,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455971373671000000",
+		"endTimeNanos": "1455971675074000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455971675074000000",
+		"endTimeNanos": "1455971832474414644",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455971832474414644",
+		"endTimeNanos": "1455971837207000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455971837207000000",
+		"endTimeNanos": "1455972463911000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455972463911000000",
+		"endTimeNanos": "1455977591162000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455977591162000000",
+		"endTimeNanos": "1455978503706000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455978503706000000",
+		"endTimeNanos": "1455979590576000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456610687027"
+	},
+	{
+		"startTimeNanos": "1455979590576000000",
+		"endTimeNanos": "1455980263502772525",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456610687027"
+	},
+	{
+		"startTimeNanos": "1455980263502772525",
+		"endTimeNanos": "1455985439000000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456610687027"
+	},
+	{
+		"startTimeNanos": "1455985469248048196",
+		"endTimeNanos": "1455985500561000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455985500561000000",
+		"endTimeNanos": "1455986135276000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455986229003000000",
+		"endTimeNanos": "1455994595165000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456657187138"
+	},
+	{
+		"startTimeNanos": "1455994595165000000",
+		"endTimeNanos": "1455995947355073061",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456657187138"
+	},
+	{
+		"startTimeNanos": "1455995947355073061",
+		"endTimeNanos": "1455995957783000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455995957783000000",
+		"endTimeNanos": "1455996964686000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455997308883000000",
+		"endTimeNanos": "1455997369118000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455997369118000000",
+		"endTimeNanos": "1455997824814000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456005991800"
+	},
+	{
+		"startTimeNanos": "1455997824814000000",
+		"endTimeNanos": "1456005963224000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456006048795"
+	},
+	{
+		"startTimeNanos": "1456005963224000000",
+		"endTimeNanos": "1456006622674000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 0,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456052593098"
+	},
+	{
+		"startTimeNanos": "1456007891840000000",
+		"endTimeNanos": "1456008137744000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456052593098"
+	},
+	{
+		"startTimeNanos": "1456008137744000000",
+		"endTimeNanos": "1456008167979000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456052593098"
+	},
+	{
+		"startTimeNanos": "1456008167979000000",
+		"endTimeNanos": "1456008394879000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456052593098"
+	},
+	{
+		"startTimeNanos": "1456008394879000000",
+		"endTimeNanos": "1456008517322000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456052593098"
+	},
+	{
+		"startTimeNanos": "1456008517322000000",
+		"endTimeNanos": "1456008555113881167",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456052593098"
+	},
+	{
+		"startTimeNanos": "1456008555113881167",
+		"endTimeNanos": "1456008577455000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456052593098"
+	},
+	{
+		"startTimeNanos": "1456008577455000000",
+		"endTimeNanos": "1456010038774000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456052593098"
+	},
+	{
+		"startTimeNanos": "1456010038774000000",
+		"endTimeNanos": "1456010500720000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456052593098"
+	},
+	{
+		"startTimeNanos": "1456010500720000000",
+		"endTimeNanos": "1456011447549000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 0,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456052593098"
+	},
+	{
+		"startTimeNanos": "1456011447549000000",
+		"endTimeNanos": "1456011575813000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456052593098"
+	},
+	{
+		"startTimeNanos": "1456011575813000000",
+		"endTimeNanos": "1456043987842774399",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456657187301"
+	},
+	{
+		"startTimeNanos": "1456043987842774399",
+		"endTimeNanos": "1456044302734000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456664384494"
+	},
+	{
+		"startTimeNanos": "1456044302734000000",
+		"endTimeNanos": "1456054754967000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456664384494"
+	},
+	{
+		"startTimeNanos": "1456054925145000000",
+		"endTimeNanos": "1456061408698000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456671585533"
+	},
+	{
+		"startTimeNanos": "1456061408698000000",
+		"endTimeNanos": "1456065900966000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456675182047"
+	},
+	{
+		"startTimeNanos": "1456065900966000000",
+		"endTimeNanos": "1456066427859000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456678782222"
+	},
+	{
+		"startTimeNanos": "1456066427859000000",
+		"endTimeNanos": "1456071284275000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456678782222"
+	},
+	{
+		"startTimeNanos": "1456071284275000000",
+		"endTimeNanos": "1456071852909000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 1,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456099267264"
+	},
+	{
+		"startTimeNanos": "1456071852909000000",
+		"endTimeNanos": "1456077328604472656",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456099267264"
+	},
+	{
+		"startTimeNanos": "1456077328604472656",
+		"endTimeNanos": "1456077347746000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456099267264"
+	},
+	{
+		"startTimeNanos": "1456077347746000000",
+		"endTimeNanos": "1456077439007000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456099267264"
+	},
+	{
+		"startTimeNanos": "1456077439007000000",
+		"endTimeNanos": "1456078115130060590",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456099267264"
+	},
+	{
+		"startTimeNanos": "1456078115130060590",
+		"endTimeNanos": "1456078126135000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456099267264"
+	},
+	{
+		"startTimeNanos": "1456078126135000000",
+		"endTimeNanos": "1456078525452000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456099267264"
+	},
+	{
+		"startTimeNanos": "1456078525452000000",
+		"endTimeNanos": "1456080461502461072",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456693191257"
+	},
+	{
+		"startTimeNanos": "1456080461502461072",
+		"endTimeNanos": "1456083206366041528",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456693191257"
+	},
+	{
+		"startTimeNanos": "1456083206366041528",
+		"endTimeNanos": "1456083214172000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "raw:com.google.step_count.cumulative:Fairphone:FP2:f962c060:Step Counter",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456099267264"
+	},
+	{
+		"startTimeNanos": "1456083214172000000",
+		"endTimeNanos": "1456083698387000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 7,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456099267264"
+	},
+	{
+		"startTimeNanos": "1456083698387000000",
+		"endTimeNanos": "1456086490735000000",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456696788686"
+	},
+	{
+		"startTimeNanos": "1456086490735000000",
+		"endTimeNanos": "1456128802889637021",
+		"dataTypeName": "com.google.activity.segment",
+		"originDataSourceId": "derived:com.google.activity.sample:com.google.android.gms:Fairphone:FP2:f962c060:detailed",
+		"value": [
+			{
+				"intVal": 3,
+				"mapVal": []
+			}
+		],
+		"modifiedTimeMillis": "1456736290196"
+	}
+]
