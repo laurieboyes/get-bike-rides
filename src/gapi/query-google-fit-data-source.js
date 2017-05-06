@@ -19,7 +19,7 @@ export default function queryFitnessDataSource (dataSourceId, fromDate, toDate) 
 			} else {
 				const earliestDateInPoints = getDateFromNanos(points[0].startTimeNanos);
 				const newToDate = new Date(earliestDateInPoints.getTime() - 1);
-				console.log(`Loads of results. Querying again to get points before ${earliestDateInPoints.toDateString()}`);
+				console.log(`Loads of results for ${dataSourceId}. Querying again to get points before ${earliestDateInPoints.toDateString()}`);
 				return queryFitnessDataSource(dataSourceId, fromDate, newToDate)
 					.then(prevBatchOfPoints => prevBatchOfPoints.concat(points));
 			}
