@@ -1,10 +1,6 @@
 import getNanos from '../util/get-nanos';
-
-function doTheActualQuery (dataSourceId, fromDate, toDate) {
-	const path = `fitness/v1/users/me/dataSources/${dataSourceId}/datasets/${getNanos(fromDate)}-${getNanos(toDate)}`;
-	return gapi.client.request({ path })
-		.then(({ result: { point } }) => point)
-}
+import makeGapiRequest from './make-gapi-request';
+import maxGapiResults from './max-gapi-results';
 
 function getDateFromNanos (nanos) {
 	return new Date(nanos / 1000000);
@@ -15,18 +11,12 @@ function lessThanADayApart (dateA, dateB) {
 }
 
 export default function queryFitnessDataSource (dataSourceId, fromDate, toDate) {
-	return doTheActualQuery(dataSourceId, fromDate, toDate)
+	const path = `fitness/v1/users/me/dataSources/${dataSourceId}/datasets/${getNanos(fromDate)}-${getNanos(toDate)}`;
+	return makeGapiRequest(path)
 		.then(points => {
-
-			if (points.length === 0) {
-				return []
-			}
-
-			else if (lessThanADayApart(getDateFromNanos(points[0].startTimeNanos), fromDate)) {
+			if (points.length < maxGapiResults) {
 				return points;
-			}
-
-			else {
+			} else {
 				const earliestDateInPoints = getDateFromNanos(points[0].startTimeNanos);
 				const newToDate = new Date(earliestDateInPoints.getTime() - 1);
 				console.log(`Loads of results. Querying again to get points before ${earliestDateInPoints.toDateString()}`);
