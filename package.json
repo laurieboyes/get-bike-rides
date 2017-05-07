@@ -1,6 +1,6 @@
 {
   "name": "get-google-fit-bike-rides",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Browser JS library to fetch a list of bikerides from Google Fit",
   "main": "dist/get-google-fit-bike-rides.min.js",
   "scripts": {
