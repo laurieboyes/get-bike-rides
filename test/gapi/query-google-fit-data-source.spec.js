@@ -2,10 +2,11 @@ import 'babel-polyfill'
 import { expect } from 'chai';
 import proxyquire from 'proxyquire';
 import sinon from 'sinon';
+import getNanos from '../../src/util/get-nanos'
 
 const dataSourceId = 'some:fake.data_source:id';
 const fromDate = new Date(0);
-const toDate = new Date();
+const toDate = new Date('1989-07-09');
 
 // IRL it's 100k
 const maxGapiResults = 3;
@@ -43,19 +44,21 @@ describe.only('queryGoogleFitDataSource', () => {
 	});
 
 	it('should make more requests for the previous batch if the number of results was equal to the max gapi results, and return them in chronological order', () => {
-		makeGapiRequestMock.onCall(0).returns(Promise.resolve([{ f: 6, startTimeNanos: 123 }, { g: 7 }, { h: 8 }]));
-		makeGapiRequestMock.onCall(1).returns(Promise.resolve([{ c: 3, startTimeNanos: 456 }, { d: 4 }, { e: 5 }]));
-		makeGapiRequestMock.onCall(2).returns(Promise.resolve([{ a: 1 }, { b: 2 }]));
+
+		makeGapiRequestMock.withArgs(sinon.match(/\.*-615945600000000000$/)).returns(Promise.resolve([{ f: 6, startTimeNanos: 1468022400000000000 }, { g: 7 }, { h: 8 }]));
+		makeGapiRequestMock.withArgs(sinon.match(/\.*-1468022399999000000$/)).returns(Promise.resolve([{ c: 3, startTimeNanos: 1436400000000000000 }, { d: 4 }, { e: 5 }]));
+		makeGapiRequestMock.withArgs(sinon.match(/\.*-1436399999999000000$/)).returns(Promise.resolve([{ a: 1 }, { b: 2 }]));
 
 		return queryGoogleFitDataSource(dataSourceId, fromDate, toDate)
 			.then(points => {
+				// note that this isn't what points look like really, and each would have a startTimeNanos (and loads of other stuff)
 				expect(points).to.deep.equal([
 					{ a: 1 },
 					{ b: 2 },
-					{ c: 3, startTimeNanos: 456 },
+					{ c: 3, startTimeNanos: 1436400000000000000 },
 					{ d: 4 },
 					{ e: 5 },
-					{ f: 6, startTimeNanos: 123 },
+					{ f: 6, startTimeNanos: 1468022400000000000 },
 					{ g: 7 },
 					{ h: 8 }
 				]);
