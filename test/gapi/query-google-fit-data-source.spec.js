@@ -24,7 +24,7 @@ describe.only('queryGoogleFitDataSource', () => {
 	});
 
 	beforeEach(() => {
-		makeGapiRequestMock.resetHistory();
+		makeGapiRequestMock.reset();
 	});
 
 	it('should return query the Google API and return an array of points', () => {
@@ -43,25 +43,42 @@ describe.only('queryGoogleFitDataSource', () => {
 			});
 	});
 
-	it('should make more requests for the previous batch if the number of results was equal to the max gapi results, and return them in chronological order', () => {
+	describe('more results than can fit through in one gapi request', () => {
 
-		makeGapiRequestMock.withArgs(sinon.match(/\.*-615945600000000000$/)).returns(Promise.resolve([{ f: 6, startTimeNanos: 1468022400000000000 }, { g: 7 }, { h: 8 }]));
-		makeGapiRequestMock.withArgs(sinon.match(/\.*-1468022399999000000$/)).returns(Promise.resolve([{ c: 3, startTimeNanos: 1436400000000000000 }, { d: 4 }, { e: 5 }]));
-		makeGapiRequestMock.withArgs(sinon.match(/\.*-1436399999999000000$/)).returns(Promise.resolve([{ a: 1 }, { b: 2 }]));
+		it('should make more requests for the previous batch if the number of results was equal to the max gapi results, and return them in chronological order', () => {
 
-		return queryGoogleFitDataSource(dataSourceId, fromDate, toDate)
-			.then(points => {
-				// note that this isn't what points look like really, and each would have a startTimeNanos (and loads of other stuff)
-				expect(points).to.deep.equal([
-					{ a: 1 },
-					{ b: 2 },
-					{ c: 3, startTimeNanos: 1436400000000000000 },
-					{ d: 4 },
-					{ e: 5 },
-					{ f: 6, startTimeNanos: 1468022400000000000 },
-					{ g: 7 },
-					{ h: 8 }
+			makeGapiRequestMock.withArgs(sinon.match(/\.*-615945600000000000$/)).returns(Promise.resolve([{ f: 6, startTimeNanos: 1468022400000000000 }, { g: 7 }, { h: 8 }]));
+			makeGapiRequestMock.withArgs(sinon.match(/\.*-1468022399999000000$/)).returns(Promise.resolve([{ c: 3, startTimeNanos: 1436400000000000000 }, { d: 4 }, { e: 5 }]));
+			makeGapiRequestMock.withArgs(sinon.match(/\.*-1436399999999000000$/)).returns(Promise.resolve([{ a: 1 }, { b: 2 }]));
+
+			return queryGoogleFitDataSource(dataSourceId, fromDate, toDate)
+				.then(points => {
+					// note that this isn't what points look like really, and each would have a startTimeNanos (and loads of other stuff)
+					expect(points).to.deep.equal([
+						{ a: 1 },
+						{ b: 2 },
+						{ c: 3, startTimeNanos: 1436400000000000000 },
+						{ d: 4 },
+						{ e: 5 },
+						{ f: 6, startTimeNanos: 1468022400000000000 },
+						{ g: 7 },
+						{ h: 8 }
+					]);
+				});
+		});
+
+		it('should pass a `toDate` to the next recursion that is the date of the oldest point minus one millisecond', () => {
+			const oldestPointDateNanos = 1468022400000000000;
+			// oldestPointDateNanos - 1 millisecond = 1468022399999000000;
+
+			makeGapiRequestMock.onCall(0).returns(Promise.resolve([{ a: 1, startTimeNanos: oldestPointDateNanos }, { b: 2 }, { c: 3 }]));
+			makeGapiRequestMock.onCall(1).returns(Promise.resolve([]));
+			return queryGoogleFitDataSource(dataSourceId, fromDate, toDate)
+				.then(() => [
+					// oldestPointDateNanos - 1 millisecond = 1468022399999000000;
+					expect(makeGapiRequestMock.secondCall.args[0]).to.match(/\.*-1468022399999000000$/)
 				]);
-			});
-	});
+		});
+
+	})
 });
